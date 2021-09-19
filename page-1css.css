@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0px;
+    padding: 50px;    
+}
+.redberry{
+    margin: auto;
+    width: 80%;
+    color: red;
+}
+section{
+    width: 80%;
+    height: 750px;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction:row; 
+    overflow: hidden;
+    position:relative;
+}
+
+@media screen and (max-width: 768px) {
+    section{flex-direction: column;}
+}
+.kitxvari{ 
+    width: 50%;
+    height: 610px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.kitxvari form .form-control label{
+    font-size:18px;
+    padding: 5px;
+    display: inline-block;
+
+}
+.kitxvari form .form-control input{
+    min-width: 55%;
+    height: 40px;
+    overflow: hidden;
+    
+}
+.ilustracia{
+    width: 750px;
+    height: 610px;
+    position: relative;
+}
+
+.yellow{
+    content:" ";
+    width: 550px;
+    height: 50px;
+    background-color: rgb(245, 221, 0);
+    position: absolute;
+    top: 220px;
+    left: 110px;
+    opacity: 0.4;
+   
+}
+.piroba{ /*ყველა ველი რომ უნდა იყოს შევსებული*/
+    display: inline-block;
+    width: 250px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+}

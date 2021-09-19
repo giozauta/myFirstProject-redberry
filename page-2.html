@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page-2css.css">
+    <script src="page2js.js"></script>
+</head>
+<body>
+    <div class ="redberry" >
+        <img src="figma export\Component 2.png" style="max-width: 100%;" >
+    </div>
+    <section>
+        <div class="kitxvari">
+            <form>
+                 <div id="kitxva1">
+                    <h3>გაქვს გადატანილი Covid-19?*</h3>
+                    <label><input type="radio" name="answer" id="yes" value="yes" onclick="checkCovid(1)">კი</label><br>
+                    <label><input type="radio" name="answer" id="no" value="no"  onclick="checkCovid(2)">არა</label><br>
+                    <label><input type="radio" name="answer" id="have" value="have"  onclick="checkCovid(3)">ახლა მაქვს</label>
+                 </div>
+                 <div id="kitxva2">
+                     <h3>ანტისხეულების ტესტი გაქვს გაკეთებული?*</h3>
+                     <label><input type="radio" name="answer2" id="yes2" onclick="checkAnti(0)" >კი</label><br>
+                     <label><input type="radio" name="answer2" id="no2"  onclick="checkAnti(1)">არა</label>
+                 </div>
+                <div id="kitxva3">
+                        <div id="version1"><!--თუ მეორე კითხვაში კის  მონიშნავს ეს გამოჩნდება-->
+                            <h3>თუ გახსოვს, გთხოვ მიუთითე ტესტის მიახლოებითი რიცხვი და ანტისხეულების რაოდენობა*</h3>
+                            <input type="date" name="date" id="date" placeholder="თარიღი"><br><br>
+                            <input type="number" name ="ant.quantity" id="ant.quantity" placeholder="ანტისხეულების რაოდენობა" required>
+                        </div>
+                        <div id="version2"><!--თუ მეორე კითხვაში არას მონიშნავს ეს გამოჩნდება-->
+                            <h3>მიუთითე მიახლოებითი პერიოდი(დღე/თვე/წელი)როდის გქონდა Covid-19*</h3>
+                            <input type="date" name = "covidDate" id="covidDate" placeholder="დდ/თთ/წწ" required>
+                        </div>
+                </div>
+            </form>
+        </div>
+        <div class="ilustracia">
+                    <img src="figma export\vaccinate2.png" alt="kaci" class="kaci">
+                    <img src="figma export\main logo.png" alt="red-ball" class="red-ball">
+        </div>
+    </section>
+    <br>
+    <br>
+    <div class="gilakebi">
+        <a href="page-1.html"><img src="figma export\Vector 3.png" alt="უკან-გადასვლის-ღილაკი" class="back"></a>
+        <a href="page-3.html"><img src="figma export\Vector 8.png" alt="წინ-გადასვლის-ღილაკი" class="forward" id="forward"></a>
+    </div>
+</body>
+</html>

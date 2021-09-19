@@ -1,0 +1,92 @@
+*{box-sizing: border-box;}
+body{
+    padding: 50px;    
+    margin: 0px;
+}
+.redberry{
+    margin: auto;
+    width: 80%;
+    color: red;
+}
+section{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction:row; 
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1500px) {
+    section{
+    flex-direction: column;
+    width: 100%;
+    }
+    .redberry{
+    width: 100%;
+    }
+}
+.kitxvari{ 
+    width: 50%;
+    height: 610px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.kitxvari form input[type="date"]{
+    min-width: 55%;
+    height: 40px;
+    overflow: hidden;    
+}
+input[type="number"]{
+    min-width: 55%;
+    height: 40px;
+    overflow: hidden;
+}
+input{
+    margin-left:15px;
+}
+.ilustracia{
+    width: 750px;
+    height: 610px;
+    position: relative;
+}
+.red-ball{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:270px;
+    left:130px;
+    opacity: 0.8;
+}          
+.gilakebi{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+.gilakebi img { 
+    padding: 15px;
+    margin: 15px;
+}
+#forward{
+    display:none;
+}
+#kitxva2{
+    visibility:hidden;
+}
+#kitxva3{
+    position: relative;
+    height: 250px;
+   
+}
+#version1{position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+#version2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
